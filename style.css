@@ -1,0 +1,165 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+
+header {
+    background: #00544b ;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;  
+    padding: 2% 4% 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.search {
+    display: flex;
+    gap: 25px;
+}
+
+.menu {
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.items {
+    display: flex;
+    gap: 8px;
+    opacity: 0.7;
+    padding-bottom: 2%;
+    width: 25%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.group {
+    width: 50px;
+
+}
+
+.chat {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #faffff;
+    opacity: 1 !important;
+}
+
+.num {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: rgb(240, 236, 236);
+    color: #00544b;
+    text-align: center;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: rgb(202, 219, 209);
+    border-radius: 50%;
+    display: inline-block;
+    align-self: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users {
+    width: 90%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-pic {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.msg {
+    background: rgb(29, 160, 69);
+    color: #faffff;
+    align-self: flex-end;
+}
+
+.msg-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    margin-bottom: 0;
+    margin-top: 2px;
+    font-size: 1.1rem;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+.typing{
+    color: rgb(29, 160, 69);
+    font-style: italic;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-msg {
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(39, 146, 71);
+    margin-top: 0px;
+}
+
+.msg {
+    padding: 1%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.sticker, .check {
+    color: rgb(84, 87, 87);
+    font-size: .9rem;
+    margin-right: 5px;
+}
+
+.checked {
+    color: rgb(71, 167, 231);
+}
+
+.audio {
+    color: rgb(94, 92, 90);
+    font-style: normal;
+}
+
+.nopic {
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    background: rgb(212, 211, 211);
+}
